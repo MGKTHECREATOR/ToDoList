@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DY TO DO LI</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=3GXuFSeqojEe&format=png&color=bd0000" type="image/icon type">
+    <link rel="stylesheet" href="list miniproject.css">
+</head>
+<body>
+    <br>
+    <br>
+    <center>
+        <table>
+            <tr>
+                <td><img src="https://img.icons8.com/?size=100&id=44852&format=png&color=000000" height="50px"></td>
+                <td class="title">TO DO LIST</td>
+            </tr>
+        </table>
+        <br><br>
+        <div class="div">
+            <br>
+            <h1>Schedule Adder</h1>
+            <br><br><br>
+            <div class="row">
+                <input class="input" id="taskInput" type="text" placeholder="ENTER A TASK">
+                <button onclick="addTask()">ADD</button>
+            </div class="len">
+            <div class="listoftask">
+                List Of Tasks
+            </div>
+            <br>
+            <br>
+            <ul id="taskList" class="ul"></ul>
+        </div>
+
+        <script>
+            function addTask() {
+                const taskInput = document.getElementById('taskInput');
+                const taskText = taskInput.value.trim();
+
+                if (taskText !== '') {
+                    const li = document.createElement('li');
+                    li.textContent = taskText;
+
+                    const deleteButton = document.createElement('button');
+                    deleteButton.textContent = 'Delete';
+                    deleteButton.onclick = function () {
+                        li.remove();
+                    };
+                    li.appendChild(deleteButton);
+                    document.getElementById('taskList').appendChild(li);
+                    taskInput.value = '';
+                }
+            }
+        </script>
+
+    </center>
+</body>
+</html>
