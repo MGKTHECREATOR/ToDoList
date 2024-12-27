@@ -9,3 +9,4 @@ JavaScript brings the application to life by enabling dynamic interactions. Feat
 To uphold professionalism, the project adheres to best coding practices, including modular code organization and detailed documentation. Accessibility is prioritized, ensuring compliance with Web Content Accessibility Guidelines (WCAG).
 
 This to-do list exemplifies the seamless integration of HTML, CSS, and JavaScript to create an elegant, functional, and professionally designed task management tool.
+[RESULT.pdf](https://github.com/user-attachments/files/18258983/RESULT.pdf)
