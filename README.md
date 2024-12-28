@@ -1,5 +1,4 @@
 # ToDoList
-# To-Do List
 
 The To-Do List is a timeless method for organizing tasks and responsibilities in a structured manner. This project provides a simple yet effective system for planning and tracking daily, weekly, or long-term goals. Developed using HTML, CSS, and JavaScript, it offers a robust and user-friendly solution that integrates functionality with professional design.
 
